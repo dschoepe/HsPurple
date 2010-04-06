@@ -7,7 +7,7 @@ import Data.Monoid
 import Foreign
 import Foreign.C
 import System.Posix
-import System.Event hiding (intToEvent)
+import System.Event
 
 
 fi :: (Integral a, Num b) => a -> b
